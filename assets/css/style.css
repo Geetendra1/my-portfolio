@@ -170,6 +170,11 @@ body { background: var(--smoky-black); }
   #REUSED STYLE
 \*-----------------------------------*/
 
+.para-link{
+  text-decoration: none;
+  display: inline;
+}
+
 .sidebar,
 article {
   background: var(--eerie-black-2);
@@ -605,8 +610,6 @@ main {
 
 .company-logo-image{
   border-radius: 50%;
-
-  width: 10px;
 }
 
 .testimonials-item-title { margin-bottom: 7px; }
@@ -1500,7 +1503,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     border-radius: 20px;  
   }
 
-  .testimonials-avatar-box img { width: 80px; }
+  .testimonials-avatar-box img { width: 70px; }
 
   .testimonials-item-title {
     margin-bottom: 10px;
