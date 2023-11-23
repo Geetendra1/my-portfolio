@@ -181,6 +181,12 @@ body { background: var(--smoky-black); }
   display: inline;
 }
 
+.venture-company-link{
+  text-decoration: none;
+  display: inline;
+  color: var(--orange-yellow-crayola);
+}
+
 .project-title-container{
   display: flex;
   flex-direction: row;
@@ -891,7 +897,7 @@ main {
 
 .skills-list { padding: 20px; 
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 20px;
 }
 
@@ -1337,11 +1343,27 @@ textarea.form-input::-webkit-resizer { display: none; }
  * responsive larger than 450px screen
  */
 
-@media (min-width: 450px) {
+@media (max-width:450px ) {
+  .testimonials-avatar-box img { display: none; }
+  .content-card {
+    padding-top: 10px;
+    
+  }
+} 
+ 
+@media (min-width: 450px ) {
 
+  .testimonials-avatar-box img { width: 50px; }
+  
   /**
    * client
    */
+
+
+   
+   .skills-list { 
+    grid-template-columns: 1fr;
+  }
 
   .clients-item { min-width: calc(33.33% - 10px); }
 
@@ -1655,6 +1677,9 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 @media (min-width: 768px) {
   
+  .skills-list { 
+    grid-template-columns: 1fr 1fr;
+  }
 
   /**
    * REUSED STYLE
