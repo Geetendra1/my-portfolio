@@ -166,6 +166,12 @@ body { background: var(--smoky-black); }
   gap: 10px;
   margin-top: 10px;
 }
+
+.company-name-title{
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+}
 /*-----------------------------------*\
   #REUSED STYLE
 \*-----------------------------------*/
@@ -909,8 +915,8 @@ main {
 
 .skill-image-item{
   margin-left: 10px;
-  width: 25px;
-  height: 25px;
+  width: 17px;
+  height: 17px;
 }
 
 
@@ -949,6 +955,7 @@ main {
   font-weight: var(--fw-300);
   line-height: 1.6;
   margin: 10px;
+  font-size: 14px;
 }
 
 .sm-skill-text {
