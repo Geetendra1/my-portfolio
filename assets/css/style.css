@@ -179,6 +179,7 @@ body { background: var(--smoky-black); }
 .para-link{
   text-decoration: none;
   display: inline;
+  color: var(--orange-yellow-crayola);
 }
 
 .venture-company-link{
@@ -926,7 +927,7 @@ main {
 }
 
 
-.skills-item:not(:last-child) { margin-bottom: 15px; }
+/* .skills-item:not(:last-child) { margin-bottom: 15px; } */
 
 .skill .title-wrapper {
   display: flex;
@@ -950,7 +951,7 @@ main {
   flex: 1;
   display: flex;
   flex-direction: column;
-  background: var(--jet);
+  background: var(--onyx);
   width: 100%;  
   border-radius: 10px;
 
@@ -1624,7 +1625,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     left: -43px;
   }
 
-  .skills-item:not(:last-child) { margin-bottom: 25px; }
+  /* .skills-item:not(:last-child) { margin-bottom: 25px; } */
 
 
 
@@ -1659,8 +1660,9 @@ textarea.form-input::-webkit-resizer { display: none; }
   textarea.form-input { margin-bottom: 30px; }
 
   .form-btn {
-    --fs-6: 16px;
-    padding: 16px 20px;
+    --fs-6: 14px;
+    padding: 13px 15px;
+    margin-bottom: 15px;
   }
 
   .form-btn ion-icon { font-size: 18px; }
