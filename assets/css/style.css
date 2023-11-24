@@ -439,6 +439,7 @@ main {
 .sidebar.active .sidebar-info_more {
   opacity: 1;
   visibility: visible;
+  min-height: 400px;
 }
 
 .contacts-list {
@@ -1348,12 +1349,14 @@ textarea.form-input::-webkit-resizer { display: none; }
   .testimonials-avatar-box img { display: none; }
   .content-card {
     padding-top: 10px;
-    
+  }
+  .sidebar-info_more {
+    overflow-y: scroll;
+    max-height:400px
   }
 } 
  
 @media (min-width: 450px ) {
-
   .testimonials-avatar-box img { width: 50px; }
   
   /**
@@ -1460,7 +1463,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     margin-bottom: 30px;
   }
 
-  .sidebar.active { max-height: 584px; }
+  .sidebar.active { max-height: fit-content; }
 
   .sidebar-info { gap: 25px; }
 
